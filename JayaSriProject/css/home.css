@@ -1,0 +1,358 @@
+body{
+    opacity: none;
+}
+
+
+.one{
+    position: relative;
+    bottom: 100px;
+}
+h1{
+    position: relative;
+    bottom: 600px;
+    text-transform: capitalize;
+    font-weight: 500px;
+    color:red;
+    text-shadow: 0 2px 1px #79a06d, 
+      -1px 3px 1px #82ad75, 
+      -2px 5px 1px #8ebf80;
+}
+h1:hover{
+    color: black;
+    text-shadow:-1px 1px 0 #41ba45,
+	1px 1px 0 #c63d2b,
+	1px -1px 0 #42afac,
+	-1px -1px 0 #c6c23f;
+}
+p{
+    position: relative;
+    bottom: 600px;
+    left: 30px;
+    color:black;
+    font-size: medium;
+    font-weight: 50px;
+    text-transform: capitalize;
+}
+p:hover{
+    cursor: pointer;
+    color:maroon;
+}
+
+li{
+    display: inline;
+position: relative;
+bottom: 800px;
+left: 900px;
+list-style: none;
+padding: 12px;
+text-transform: capitalize;
+font-size: 20px;
+font-weight: 50px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li a:hover{
+border: 0px transparent black;
+background-color: rgb(5, 70, 135);
+padding: 10px;
+backface-visibility: hidden;
+border-radius: 10px;
+color: #ff83ff;;
+}
+ #logo{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 110px;
+    left: 5px;
+    border-radius: 50px;
+}
+#logo:hover{
+    transform: scale(1.1,1);
+}
+.two{
+    width: 100vw;
+    height: 1020px;
+    position: relative;
+   bottom: 1000px;
+    background-color: black;
+}
+h2{
+    position: relative;
+    left: 380px;
+    top:50px;
+    text-transform: capitalize;
+    font-size: 50px;
+
+}h2:hover{
+    text-shadow: 2px 2px gold;
+    color: purple;
+}
+
+.three{
+    
+    width: 100vw;
+    height: 800px;
+    position: relative;
+   bottom: 1850px;
+    background-color:rgb(15, 16, 16)
+}
+.service{
+    margin:700px 100px 100px 150px;
+    color:white;
+
+
+}
+.para{
+    text-transform: capitalize;
+    font-size: medium;
+    color:black; 
+    position: relative;
+    bottom: 10px;
+}
+.para:hover{
+    color:white;
+}
+h3{
+    margin-left: 70px;
+    font-size: 20px;
+}
+button{
+    margin-left: 70px;
+    bottom: 100px;
+    background-color: #42afac;
+    padding: 5px;
+    text-transform: capitalize;
+    border:0px transparent  #42afac;
+    border-radius: 10px;
+}
+.car{
+    border: 0px transparent rgb(5, 70, 135);
+    width: 250px;
+    height: 200px;
+    color: white;
+    position: relative;
+    right: 250px;
+    border-radius: 20px;
+    background-color: rgb(5, 70, 135);
+    cursor: pointer;
+}
+.para1{
+    text-transform: capitalize;
+    font-size: medium;
+    color:black; 
+    position: relative;
+    bottom: 10px;
+}
+.para1:hover{
+    color: white;
+}
+h3{
+    margin-left: 70px;
+}
+btn1{
+    margin-left: 70px;
+    bottom: 100px;
+    background-color: #42afac;
+    padding: 5px;
+    text-transform: capitalize;
+     color: white;
+    border-radius: 10px;
+}
+.parts{
+    border: 0px transparent rgb(5, 70, 135);
+    width: 250px;
+    height: 200px;
+    color: white;
+    position: relative;
+    right: 100px;
+    border-radius: 20px;
+    background-color: rgb(5, 70, 135);
+    cursor: pointer;
+}
+.para2{
+    text-transform: capitalize;
+    font-size: medium;
+    color:black; 
+    position: relative;
+    bottom: 10px;
+}
+.para2:hover{
+    color: white;
+}
+h3{
+    margin-left: 70px;
+}
+btn2{
+    margin-left: 70px;
+    bottom: 100px;
+    background-color: #42afac;
+    padding: 5px;
+    text-transform: capitalize;
+    border:0px transparent  #42afac;
+    border-radius: 10px;
+}
+.insurance{
+    border: 0px transparent rgb(5, 70, 135);
+    width: 250px;
+    height: 200px;
+    color: white;
+    margin-left: 20px;
+    border-radius: 20px;
+    background-color: rgb(5, 70, 135);
+    cursor: pointer;
+}
+.para3{
+    text-transform: capitalize;
+    font-size: medium;
+    color:black; 
+    position: relative;
+    bottom: 10px;
+}
+.para3:hover{
+    color: white;
+}
+h3{
+    margin-left: 70px;
+}
+btn3{
+    margin-left: 70px;
+    bottom: 100px;
+    background-color: #42afac;
+    padding: 5px;
+    text-transform: capitalize;
+    border:0px transparent  #42afac;
+    border-radius: 10px;
+}
+.battery{
+    border: 0px transparent rgb(5, 70, 135);
+    width: 250px;
+    height: 200px;
+    color: white;
+    position: relative;
+    right: 250px;
+    top: 150px;
+    border-radius: 20px;
+    background-color: rgb(5, 70, 135);
+    cursor: pointer;
+}
+.para4{
+    text-transform: capitalize;
+    font-size: medium;
+    color:black; 
+    position: relative;
+    bottom: 10px;
+}
+.para4:hover{
+    color:white;
+}
+h3{
+    margin-left: 70px;
+}
+btn4{
+    margin-left: 70px;
+    bottom: 100px;
+    background-color: #42afac;
+    padding: 5px;
+    text-transform: capitalize;
+    border:0px transparent  #42afac;
+    border-radius: 10px;
+}
+.oil{
+    border: 0px transparent rgb(5, 70, 135);
+    width: 250px;
+    height: 200px;
+    color: white;
+    position: relative;
+    right: 100px;
+    top: 150px;
+    border-radius: 20px;
+    background-color: rgb(5, 70, 135);
+    cursor: pointer;
+}
+.para5{
+    text-transform: capitalize;
+    font-size: medium;
+    color:black; 
+    position: relative;
+    bottom: 10px;
+}
+.para5:hover{
+    color: white;
+}
+h3{
+    margin-left: 70px;
+}
+btn5{
+    margin-left: 70px;
+    bottom: 100px;
+    background-color: #42afac;
+    padding: 5px;
+    text-transform: capitalize;
+    border:0px transparent  #42afac;
+    border-radius: 10px;
+}
+.support{
+    border: 0px transparent  rgb(5, 70, 135);
+    width: 250px;
+    height: 200px;
+    color: white;
+    position: relative;
+    top: 150px;
+    border-radius: 20px;
+    background-color: rgb(5, 70, 135);
+    cursor: pointer;
+
+}
+.box{
+    display: inline-flex;
+    position: relative;
+    left: 350px;
+
+}
+.box1{
+    display: inline-flex;
+    position: relative;
+    left: 350px;
+    margin-bottom: 900px;
+
+}
+.four{
+    width: 100vw;
+    height: 300px;
+    position: relative;
+    bottom: 725px;
+    background-color:rgb(7, 7, 7);
+}
+h4{
+    color: white;
+    position: relative;
+    left: 600px;
+    font-size: 50px;
+}
+ol li{
+    position: relative;
+    top: 20px;
+    left: 500px;
+    color: white;
+    font-size: 50px;
+}
+.fa-facebook{
+    color:rgb(30, 30, 231);
+    background-color: white;
+    border-radius: 30px;
+    
+}
+.fa-square-instagram{
+  color:palevioletred;
+}
+.fa-twitter{
+    color: #42afac;
+}
+.fa-linkedin{
+color: cornflowerblue;
+}
+

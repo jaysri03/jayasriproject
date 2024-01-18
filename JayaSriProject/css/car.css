@@ -1,0 +1,151 @@
+body{
+    background-image: linear-gradient(to bottom right, rgb(246, 125, 125),silver,rgb(240, 146, 146));
+}
+
+
+.box1{
+    display: inline-flex;
+    
+}
+
+.box2{
+    display: inline-flex;
+}
+
+
+img{
+    width: 350px ;
+    height: 280px;
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+    top: 10px;
+    
+}
+img:hover{
+transform: scale(0.9,1);
+box-shadow: 2px 2px 2px 2px;
+background-color: rgb(6, 6, 7);
+
+}
+.r1{
+ border: 1px solid rgb(227, 71, 71) ;
+ border-radius: 30px;
+ background-color: transparent;
+ position: relative;
+}
+.r1:hover{
+    border: none;
+    background-color:papayawhip;
+    box-shadow: 1px 4px 4px 1px red;
+}
+.r2{
+    border: 1px solid rgb(227, 71, 71) ;
+    border-radius: 30px;
+    background-color: transparent;
+    position: relative;
+    left: 60px;
+   }
+   .r2:hover{
+    border: none;
+    background-color:papayawhip;
+    box-shadow: 1px 4px 4px 1px red;
+   }
+   .r3{
+    border: 1px solid  rgb(227, 71, 71);
+    border-radius: 30px;
+    background-color:transparent;
+    position: relative;
+    left: 110px;
+   }
+   .r3:hover{
+    border: none;
+    background-color:papayawhip;
+    box-shadow: 1px 4px 4px 1px red;
+   }
+   h4{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    bottom: 10px;
+    text-shadow: 2px 2px white;
+   }
+   h4:hover{
+    text-shadow: 2px 2px red;
+   }
+   h5{
+    text-transform: capitalize;
+    position: relative;
+    bottom: 25px;
+    left: 50px;
+    font-size: 20px;
+   }
+   .c1{
+    border: 1px solid  rgb(227, 71, 71);
+    border-radius: 30px;
+    background-color: transparent;
+    position: relative;
+    top: 30px;
+   } 
+   .c1:hover{
+    border: none;
+    background-color:papayawhip;
+    box-shadow: 1px 4px 4px 1px red;
+   }  
+   .c2{
+    border: 1px solid  rgb(227, 71, 71);
+    border-radius: 30px;
+    background-color: transparent;
+    position: relative;
+    left: 60px;
+    top: 30px;
+   }
+   .c2:hover{
+    border: none;
+    background-color:papayawhip;
+    box-shadow: 1px 4px 4px 1px red;
+   }
+   .c3{
+    border: 1px solid  rgb(227, 71, 71);
+    border-radius: 30px;
+    background-color:transparent;
+    position: relative;
+    left: 110px;
+    top: 30px;
+   }
+   .c3:hover{
+    border: none;
+    background-color:papayawhip;
+    box-shadow: 1px 4px 4px 1px red;
+   }
+   button{
+    width: 140px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    outline: none;
+    position: relative;
+    background-color:rgb(229, 234, 243);
+    left: 150px;
+    cursor: pointer;
+    bottom: 30px;
+   } 
+   button:hover{
+    background-color: cornflowerblue;
+   }
+  ul li{
+    list-style: none;
+    display: inline;
+    position: relative;
+    left: 180px;
+    bottom: 130px;
+    font-size: 25px;
+    }
+  .fa-regular{
+    color: black;
+  }
+   .fa-solid{
+    color: yellow;
+    
+   }
